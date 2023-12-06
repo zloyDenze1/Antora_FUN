@@ -27,8 +27,7 @@ asciidoc:
     page-pagination: ''
     table-frame: 'none@'
     table-grid: 'rows@'
-    plantuml-server-url: http://www.plantuml.com/plantuml
-    plantuml-fetch-diagram: true
+    kroki-server-url: http://localhost:8000
     kroki-fetch-diagram: true
   extensions:
   - asciidoctor-kroki

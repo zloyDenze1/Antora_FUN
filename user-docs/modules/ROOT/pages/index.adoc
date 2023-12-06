@@ -5,8 +5,11 @@
 [plantuml#diagAliceBob,alice-and-bob,svg,role=sequence]
 ....
 @startuml
-alice -> bob: Привет Боб
-bob-->alice: Привет Элис
+start
+: Привет Боб;
+: Привет Элис;
+: это с докера;
+end
 @enduml
 ....
 
