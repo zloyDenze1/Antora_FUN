@@ -1,0 +1,47 @@
+= Раздел инструкции поменьше 1
+:url-labeled: {url-asciidoc}/lists/description/
+:url-continuation: {url-asciidoc}/lists/continuation/
+:lang: ru
+:source-language: ru
+
+*asciidoc-pidor*
+
+*Чтобы* *сохранить* нажмите кнопку 'Сохранить'
+
+A bold *word*, and a bold *phrase of text*.
+
+Bold c**hara**cter**s** within a word.
+
+
+---
+
+[.term] *проверка*
+
+---
+
+== Admonition styles
+
+An admonition, also known as a notice, helps draw attention to a line or block of text with a special label or icon.
+
+Asciidoctor comes with five built-in styles.
+
+* NOTE
+* TIP
+* IMPORTANT
+* CAUTION
+* WARNING
+
+== Basic admonition
+
+.Basic admonitions
+----
+CAUTION: Don't stick forks in electric sockets.
+
+TIP: After someone sticks a fork in a socket, you'll need to reset the circuit in the breaker box in the dark and scary basement.
+
+WARNING: Never go into the basement.
+
+IMPORTANT: A monster lives in the basement.
+
+NOTE: If you go into the basement, see if you can find Kenny's orange parka.
+----

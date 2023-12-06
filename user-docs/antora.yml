@@ -1,3 +1,10 @@
 name: user-docs
+title: Бэклог
 version: v.1
 start_page: ROOT:index.adoc
+asciidoc:
+  attributes:
+    source-language: asciidoc@
+nav:
+- modules/ROOT/nav.adoc
+- modules/TT-1/nav.adoc

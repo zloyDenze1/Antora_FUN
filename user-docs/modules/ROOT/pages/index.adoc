@@ -1,3 +1,13 @@
 = Стартовая страница
 
-Страница которая приветствует пользователя
+
+.PlantUML example
+[plantuml#diagAliceBob,alice-and-bob,svg,role=sequence]
+....
+@startuml
+alice -> bob: Привет Боб
+bob-->alice: Привет Элис
+@enduml
+....
+
+Страница которая приветствует Павла Навалихина

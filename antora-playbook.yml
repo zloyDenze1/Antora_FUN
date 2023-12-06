@@ -1,13 +1,34 @@
 site:
-  title: Antora-test
+  title: Project_name
   url: /user-docs/index.html
-  start_page: ./user-docs/modules/ROOT/pages/index.adoc
+  start_page: user-docs:index.adoc
 content:
   sources:
   - url: ./
     branches: HEAD
     start_path: user-docs
+  - url: ./
+    branches: HEAD
+    start_path: manual
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+output:
+  dir: ./site
+  clean: true
+asciidoc:
+  attributes:
+    lang: ru
+    experimental: ''
+    hide-uri-scheme: '@'
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: ''
+    table-frame: 'none@'
+    table-grid: 'rows@'
+    plantuml-server-url: http://www.plantuml.com/plantuml
+    plantuml-fetch-diagram: true
+    kroki-fetch-diagram: true
+  extensions:
+  - asciidoctor-kroki
