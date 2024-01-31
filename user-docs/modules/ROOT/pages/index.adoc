@@ -1,16 +1,20 @@
 = Стартовая страница
 
 
-.PlantUML example
+.Привет с банкаааааааааа
 [plantuml#diagAliceBob,alice-and-bob,svg,role=sequence]
 ....
 @startuml
+skinparam activity {
+StartColor red
+BackgroundColor red
+FontColor white
+EndColor red
+}
 start
-: Привет Боб;
-: Привет Элис;
-: это с докера;
+: Не смогли смириться с поражением?;
+: И куда вас это привело?;
+: Снова ко мне!;
 end
 @enduml
 ....
-
-Страница которая приветствует Павла Навалихина

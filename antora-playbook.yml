@@ -27,7 +27,7 @@ asciidoc:
     page-pagination: ''
     table-frame: 'none@'
     table-grid: 'rows@'
-    kroki-server-url: http://localhost:8000
+    kroki-server-url: https://kroki.io/
     kroki-fetch-diagram: true
   extensions:
   - asciidoctor-kroki
